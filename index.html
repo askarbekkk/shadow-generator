@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="setting-container ">
+        <div class="settings-block">
+            <label for="blur">Размытие:</label>
+            <input type="range" id="blur" class="blur" min="-100" max="100" value="0">
+            <label for="ver">Вертикально:</label>
+            <input type="range" id="ver" class="vertical" min="-100" max="100" value="0">
+            <label for="hor">Горизонтально:</label>
+            <input type="range" id="hor" class="horizontal" min="-100" max="100" value="0">
+            <label for="spr">Распространить:</label>
+            <input type="range" id="spr" class="spread" min="-100" max="100" value="0">
+            <label for="col">Цвет:</label>
+            <input type="color"  id="col" class="color" value="#ffffff" >
+        </div>
+        <div class="box">
+            <div class="box-shadow-code"></div>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
